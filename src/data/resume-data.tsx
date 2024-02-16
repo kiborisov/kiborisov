@@ -1,9 +1,9 @@
 import {
-  coherelogo,
-  basislogo,
-  paperstacklogo,
-  stackadaptlogo,
-  lokafylogo
+  '@/images/logos/coherelogo.jpeg',
+  '@/images/logos/basislogo.jpg',
+ '@/images/logos/hxouselogo.jpg',
+  '@/images/logos/paperstacklogo.jpg',
+  '@/images/logos/stackadaptlogo.jpg',
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
