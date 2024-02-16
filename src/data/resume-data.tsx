@@ -3,9 +3,7 @@ import {
   basislogo,
   paperstacklogo,
   stackadaptlogo,
-  lokafylogo,
-  NBAPlayersStatsExplorerLogo, // Assuming you have this logo; replace with actual import
-  PenguinClassifierLogo, // Assuming you have this logo; replace with actual import
+  lokafylogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
