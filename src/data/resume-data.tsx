@@ -100,20 +100,17 @@ export const RESUME_DATA = {
       title: "NBA Players Stats Explorer",
       techStack: ["Python", "Pandas", "Streamlit"],
       description: "Designed and deployed a data scraping app to easily retrieve and visualize NBA players’ stats.",
-      logo: NBAPlayersStatsExplorerLogo,
       link: {
-        label: "GitHub repo or live project link", // Replace with actual link
-        href: "#", // Replace with actual link
+        label: "https://github.com/kiborisov/basketball_streamlit", 
       },
     },
     {
       title: "Penguin Classifier",
       techStack: ["Python", "Pandas", "Streamlit", "Numpy", "Scikit-learn"],
       description: "This web app predicts the species of penguins based on their input parameters.",
-      logo: PenguinClassifierLogo,
       link: {
-        label: "GitHub repo or live project link", // Replace with actual link
-        href: "#", // Replace with actual link
+        label: "https://github.com/kiborisov/penguins-heroku",
+
       },
     },
   ],
