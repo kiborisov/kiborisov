@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   summary:
     "Data Solutions Expert with extra attention to detail. Experienced in prompt engineering, code review, audit, A/B testing, optimizing data processing, and collaborating with cross-functional teams to ensure data accuracy and consistency.",
   avatarUrl: "https://avatars.githubusercontent.com/u/66241092?v=4", 
-  personalWebsiteUrl: "https://kiborisov.github.io/ki_portfolio/" 
+  personalWebsiteUrl: "https://kiborisov.github.io/ki_portfolio/",
   contact: {
     email: "kiborisov@gmail.com",
     tel: "+16479165739",
