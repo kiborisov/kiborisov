@@ -101,7 +101,8 @@ export const RESUME_DATA = {
       techStack: ["Python", "Pandas", "Streamlit"],
       description: "Designed and deployed a data scraping app to easily retrieve and visualize NBA players’ stats.",
       link: {
-        label: "https://github.com/kiborisov/basketball_streamlit", 
+        label: "github.com", 
+        href: "https://github.com/kiborisov/basketball_streamlit",
       },
     },
     {
@@ -109,8 +110,8 @@ export const RESUME_DATA = {
       techStack: ["Python", "Pandas", "Streamlit", "Numpy", "Scikit-learn"],
       description: "This web app predicts the species of penguins based on their input parameters.",
       link: {
-        label: "https://github.com/kiborisov/penguins-heroku",
-
+        label: "github.com",
+        href: "https://github.com/kiborisov/penguins-heroku",
       },
     },
   ],
