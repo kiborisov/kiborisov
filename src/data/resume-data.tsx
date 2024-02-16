@@ -1,8 +1,9 @@
 import coherelogo from '@/images/logos/coherelogo.jpeg';
 import basislogo from '@/images/logos/basislogo.jpg';
 import hxouselogo from '@/images/logos/hxouselogo.jpg';
-import paperstacklogo from '@/images/logos/paperstacklogo.jpg';
+import paperstacklogo from '@/images/logos/paperstacklogo.jpeg';
 import stackadaptlogo from '@/images/logos/stackadaptlogo.jpg';
+import lokafylogo from '@/images/logos/lokafy.png';
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
