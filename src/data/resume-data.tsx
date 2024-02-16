@@ -95,6 +95,15 @@ export const RESUME_DATA = {
         "Monitored and evaluated web analytics to recommend proactive adjustments to strategies in Google Ads, Facebook Ads, and Bing Ads campaign management platforms. Surveyed 500+ customers to understand product satisfaction and improvement strategies.",
     },
   ],
+  skills: [
+      "Python",
+      "MySQL",
+      "Hadoop",
+      "Snowflake",
+      "Redshift",
+      "TypeScript",
+      "Node.js",
+  ],
   projects: [
     {
       title: "NBA Players Stats Explorer",
