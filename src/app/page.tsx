@@ -140,24 +140,25 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
+          {RESUME_DATA.education.map((education, index) => {
             return (
-              <Card key={education.school}>
+              <Card key={index}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
-                      {education.school}
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {education.start} - {education.end}
+                    <h3 className="font-semibold leading-none">{education.institution}</h3>
+                      <div className="text-sm tabular-nums text-gray-500">
+                         {education.start} - {education.end || education.received}
                     </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
-              </Card>
-            );
-          })}
-        </Section>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="mt-2">
+                    {education.degree || education.certificate}
+                    {education.scholarship ? <p>Scholarship: {education.scholarship}</p> : null}
+                  </CardContent>
+                </Card>
+                );
+              })}
+</Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
