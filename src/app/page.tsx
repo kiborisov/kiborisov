@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
   description: RESUME_DATA.summary,
 };
+interface EducationEntry {
+  institution: string;
+  degree?: string;
+  certificate?: string;
+  start?: string;
+  end?: string;
+  received?: string;
+}
 
 export default function Page() {
   return (
@@ -139,31 +147,25 @@ export default function Page() {
           })}
         </Section>
         <Section>
-           <h2 className="text-xl font-bold">Education</h2>
-           {RESUME_DATA.education.map((education, index) => {
-             return (
-               <Card key={index}>
-                 <CardHeader>
-                   <div className="flex items-center justify-between gap-x-2 text-base">
-                     <h3 className="font-semibold leading-none">{education.institution}</h3>
-                       <div className="text-sm tabular-nums text-gray-500">
-                        {/* Conditional rendering for dates */}
-                {education.start && (education.end || education.received) ? (
-                `${education.start} - ${education.end || education.received}`
-                    ) : (
-                      education.received
-                        )}
-                        </div>
-                      </div>
-                  </CardHeader>
-                <CardContent className="mt-2">
-                  {education.degree || education.certificate}
-                    {education.scholarship ? <p>Scholarship: {education.scholarship}</p> : null}
-               </CardContent>
-              </Card>
-             );
-          })}
-</Section>
+        <h2 className="text-xl font-bold">Education</h2>
+        {RESUME_DATA.education.map((education: EducationEntry, index) => (
+          <Card key={index}>
+            <CardHeader>
+              <div className="flex items-center justify-between gap-x-2 text-base">
+                <h3 className="font-semibold leading-none">{education.institution}</h3>
+                <div className="text-sm tabular-nums text-gray-500">
+                  {/* Adjusted conditional rendering for dates */}
+                  {education.start ? `${education.start} - ${education.end || education.received}` : education.received}
+                </div>
+              </div>
+            </CardHeader>
+            <CardContent className="mt-2">
+              {education.degree || education.certificate}
+              {education.scholarship && <p>Scholarship: {education.scholarship}</p>}
+            </CardContent>
+          </Card>
+        ))}
+      </Section>
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
