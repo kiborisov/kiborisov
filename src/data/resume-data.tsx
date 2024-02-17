@@ -128,8 +128,8 @@ export const RESUME_DATA = {
     {
       institution: "Athabasca University",
       degree: "Bachelor of Commerce, Business Technology Management",
-      start: "Present",
-      end: "2025",
+      start: "2024",
+      end: "2026",
     },
     {
       institution: "Humber College",
