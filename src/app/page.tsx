@@ -17,6 +17,7 @@ interface EducationEntry {
   institution: string;
   degree?: string;
   certificate?: string;
+  scholarship?: string;
   start?: string;
   end?: string;
   received?: string;
