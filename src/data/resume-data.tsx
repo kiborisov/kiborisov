@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   about:
     "Programming/Database: Python, MySQL, AWS Redshift, Hadoop, Snowflake. Libraries/Tools: Pandas, Streamlit, Matplotlib, Tensorflow, Numpy, Scikit-learn. Data Visualization: Tableau, Power BI, Google Data Studio.",
   summary:
-    "Data Solutions Expert with extra attention to detail. Experienced in prompt engineering, code review, audit, A/B testing, optimizing data processing, and collaborating with cross-functional teams to ensure data accuracy and consistency.",
+    "Results-oriented professional with years of experience leveraging data-driven insights to enhance product performance and drive business success in the tech industry. Proficient in data analysis, data solutions, quality assurance, and cross-functional collaboration, dedicated to optimizing products for maximum impact.",
   avatarUrl: "https://avatars.githubusercontent.com/u/66241092?v=4", 
   personalWebsiteUrl: "https://kiborisov.github.io/ki_portfolio/",
   contact: {
