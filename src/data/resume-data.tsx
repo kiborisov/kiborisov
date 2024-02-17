@@ -134,7 +134,8 @@ export const RESUME_DATA = {
     {
       institution: "Humber College",
       degree: "Associate degree, Business",
-      start: "June 2019",
+      start: "2017",
+      end: "2019",
       scholarship: "Academic Scholarship - $15,000",
     },
     {
