@@ -43,7 +43,7 @@ export const RESUME_DATA = {
       company: "Cohere",
       link: "https://cohere.com",
       badges: ["Part-time"],
-      title: "Data Quality Analyst",
+      title: "Data Quality Specialist",
       logo: coherelogo,
       start: "May 2023",
       end: "Present",
